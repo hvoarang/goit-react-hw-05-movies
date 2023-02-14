@@ -3,7 +3,7 @@ import { Outlet, Link, useLocation } from 'react-router-dom';
 import { getDetailsMovies } from '../API/api-services';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { BackBTN } from 'components/BackBTN/BackBTN';
+import { BackBTN } from 'components/BackBtn/BackBtn';
 
 export default function MovieView() {
   const location = useLocation();
@@ -12,7 +12,6 @@ export default function MovieView() {
 
   useEffect(() => {
     getDetailsMovies(movieId).then(data => {
-      // console.log(data);
       setMovie(data);
     });
   }, [movieId]);

@@ -2,7 +2,7 @@ import {
   NavLinkNotFound,
   DivStyled,
   TextStyled,
-} from 'components/BackBTN/BackBTN.styled';
+} from 'components/BackBtn/BackBtn.styled';
 
 export default function NotFound() {
   return (

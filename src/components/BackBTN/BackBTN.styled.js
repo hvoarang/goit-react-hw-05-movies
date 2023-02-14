@@ -14,9 +14,9 @@ export const NavLinkStyled = styled(NavLink)`
   border-radius: 4px;
 
   &:hover {
-    color: blue;
+    color: #fcfcfc;
     background-color: #fff;
-    border: 1px solid blue;
+    border: 1px solid black;
   }
 `;
 export const NavLinkNotFound = styled(NavLink)`
@@ -37,7 +37,7 @@ export const NavLinkNotFound = styled(NavLink)`
   &:hover {
     color: blue;
     background-color: #fff;
-    border: 1px solid blue;
+    border: 1px solid black;
   }
 `;
 
