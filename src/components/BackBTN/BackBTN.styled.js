@@ -8,15 +8,15 @@ export const NavLinkStyled = styled(NavLink)`
   padding: 10px;
   text-decoration: none;
   border: 1px solid transparent;
-  background-color: blue;
+  background-color: orange;
   color: #fff;
   transition: all 250 linear;
-  border-radius: 4px;
+  border-radius: 8px;
 
   &:hover {
-    color: #fcfcfc;
-    background-color: #fff;
-    border: 1px solid black;
+    color: white;
+    background-color: gray;
+    border: 0 solid black;
   }
 `;
 export const NavLinkNotFound = styled(NavLink)`
