@@ -3,7 +3,7 @@ import { Outlet, Link, useLocation } from 'react-router-dom';
 import { getDetailsMovies } from '../API/api-services';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { BackBTN } from 'components/BackBtn/BackBtn';
+import { BackBtn } from 'components/BackBtn/BackBtn';
 
 export default function MovieView() {
   const location = useLocation();
@@ -17,7 +17,7 @@ export default function MovieView() {
   }, [movieId]);
   return (
     <>
-      <BackBTN />
+      <BackBtn />
       {movie && <MovieCard movie={movie} />}
       <hr />
       <ul>

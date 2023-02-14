@@ -1,5 +1,5 @@
 import { PropTypes } from 'prop-types';
-//------------------------------------------------------//
+
 export const ReviewsItem = ({ reviews }) => {
   const {
     author_details: { name, avatar_path },
