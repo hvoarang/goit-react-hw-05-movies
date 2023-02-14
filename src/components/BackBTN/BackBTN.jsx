@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import { NavLinkStyled } from './BackBTN.styled';
+import { NavLinkStyled } from './BackBtn.styled';
 
 export const BackBTN = () => {
   const location = useLocation();
