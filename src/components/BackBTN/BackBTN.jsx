@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
-import { NavLinkStyled } from './BackBtn.styled';
+import { NavLinkStyled } from './BackBTN.styled';
 
-export const BackBtn = () => {
+export const BackBTN = () => {
   const location = useLocation();
 
   return (
