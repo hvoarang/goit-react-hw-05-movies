@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { List } from 'components/SharedLayout/SharedLayout.styled';
 import { PropTypes } from 'prop-types';
-//---------------------------------------------------//
+
 export const FilmList = ({ filmList }) => {
   const location = useLocation();
   return (

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-//---------------------------------------//
 
 const SearchHeader = styled.div`
   top: 0;

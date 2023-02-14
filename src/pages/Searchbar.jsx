@@ -10,7 +10,6 @@ import { toast } from 'react-toastify';
 import { useSearchParams } from 'react-router-dom';
 import { getSerchMovies } from 'API/api-services';
 import { FilmList } from 'components/FilmsList/FilmList';
-//---------------------------------------------//
 
 export default function Searchbar() {
   const [searchParams, setSearchParams] = useSearchParams();

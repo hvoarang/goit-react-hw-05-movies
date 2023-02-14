@@ -3,9 +3,6 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { ReviewsItem } from './ReviewsItem';
 
-// import { List } from 'components/SharedLayout/SharedLayout.styled';
-//----------------------------------------------//
-
 export const Review = () => {
   const [movieReviews, setMovieReviews] = useState(null);
   const { movieId } = useParams();

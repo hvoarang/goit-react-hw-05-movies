@@ -1,6 +1,5 @@
 import { Img } from 'components/MovieCard/MovieCard.styled';
 import { PropTypes } from 'prop-types';
-//---------------------------------------------------------------------//
 
 export const CastItem = ({ cast }) => {
   const { character, name, profile_path } = cast;

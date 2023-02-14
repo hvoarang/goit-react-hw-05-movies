@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { CastItem } from './CastItem';
 import { List } from 'components/SharedLayout/SharedLayout.styled';
-//----------------------------------------------//
 
 export const Cast = () => {
   const [movieCast, setMovieCast] = useState([]);

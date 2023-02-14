@@ -1,6 +1,6 @@
 import { Card, Desc, Img } from './MovieCard.styled';
 import { PropTypes } from 'prop-types';
-//---------------------------------------------//
+
 export const MovieCard = ({ movie }) => {
   const {
     poster_path,
