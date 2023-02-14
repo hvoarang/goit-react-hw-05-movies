@@ -41,7 +41,7 @@ const SearchBtn = styled.button`
   outline: none;
   &:hover {
     opacity: 1;
-    background-color: blue;
+    background-color: gray;
     border-color: white;
     color: white;
   }
