@@ -20,16 +20,10 @@ export default function Searchbar() {
   const handlerInput = e => {
     setQuery(e.target.value);
   };
-  useEffect(() => {
-    if (!searchParams.get('query')) {
-      return;
-    }
-    getSerchMovies(searchParams.get('query')).then(data => {
-      setSearchFilmList(data.results);
-    });
-  }, [searchParams, query]);
+ 
 
   const handlerSubmit = e => {
+    
     e.preventDefault();
 
     if (!query.trim()) {
@@ -45,6 +39,9 @@ export default function Searchbar() {
       return;
     }
     setSearchParams({ query: query });
+    getSerchMovies(searchParams.get('query')).then(data => {
+      setSearchFilmList(data.results);
+    });
   };
 
   return (
